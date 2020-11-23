@@ -1,11 +1,6 @@
-import React, {useState} from 'react';
-import Image from 'next/image';
+import React from 'react';
 import styles from './Grid.module.css';
 import GridItem from './GridItems';
-
-
-
-
 export default function Grid({data}) {
     const amountToView=8;
 
