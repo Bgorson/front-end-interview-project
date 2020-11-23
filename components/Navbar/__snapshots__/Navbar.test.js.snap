@@ -2,7 +2,7 @@
 
 exports[`should render correctly 1`] = `
 <nav
-  className="navBar"
+  className="Navbar__StyledNavBar-sc-1h1ckcl-0 yBETp"
 >
   <div
     className="hamburger"
@@ -70,44 +70,40 @@ exports[`should render correctly 1`] = `
     />
   </div>
   <ul
-    className="deskTopMenu"
+    className="NavMenu__StyledDesktopMenu-sc-194gy50-1 iyvdhz"
   >
     <li
-      className="item"
+      className="NavMenu__StyledItems-sc-194gy50-2 gRmCyW"
     >
       <a
-        className="link"
+        className="Navbar__StyledLink-sc-1h1ckcl-2 cvqca-d"
         href="#"
       >
-        Stores
+        Stores 
       </a>
     </li>
     <li
-      className="item"
+      className="NavMenu__StyledItems-sc-194gy50-2 gRmCyW"
     >
       <a
-        className="link"
+        className="Navbar__StyledLink-sc-1h1ckcl-2 cvqca-d"
         href="#"
       >
         Contact Us
       </a>
     </li>
   </ul>
+  <a
+    className="Navbar__StyledLogo-sc-1h1ckcl-1 eDQKTm"
+    href="#"
+  >
+    Foxtrot
+  </a>
   <li
-    className="logo"
+    className="Navbar__StyledIcon-sc-1h1ckcl-3 TQyRA"
   >
     <a
-      className="link"
-      href="#"
-    >
-      Foxtrot
-    </a>
-  </li>
-  <li
-    className="item"
-  >
-    <a
-      className="link"
+      className="Navbar__StyledLink-sc-1h1ckcl-2 cvqca-d"
       href="#"
     >
       <svg

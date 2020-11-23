@@ -13,7 +13,7 @@ body {
     height:100%;
 }
 .content{
-    width:50%;
+    width:60%;
     margin:auto;
 }
 .loadingContainer{

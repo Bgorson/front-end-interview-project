@@ -1,7 +1,26 @@
-import styles from './Footer.module.css';
+import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faInstagram,faTwitter, faFacebook} from '@fortawesome/free-brands-svg-icons';
+const StyledFooterContainer = styled.footer `{    
+    background: #222; }`;
+
+const StyledFooterList = styled.ul `{    
+        display:flex;
+        justify-content:center; }`;
+
+const StyledFooterItem = styled.li `{     
+        list-style-type: none;
+        display:inline;
+        margin:1rem;  }`;
+const StyledIcon = styled.a `{     
+        color: white;
+        text-decoration: none;
+        :hover {
+        opacity: 0.5;
+      }
+    }`;
+
 
 const links= [
     {
@@ -26,23 +45,23 @@ const links= [
 ];
 const Footer=()=> {
     return (
-        <footer className={styles.footerContainer}>
-            <ul className={styles.footer}>
+        <StyledFooterContainer>
+            <StyledFooterList>
                 {links.map((link,index)=>(
-                    <li key={index} className={styles.footerItem}>
-                        <a className={styles.linkIcon} href={link.src}>
-                            <FontAwesomeIcon color= {'white'} icon={link.icon}></FontAwesomeIcon></a>
+                    <StyledFooterItem key={index}>
+                        <StyledIcon href={link.src}>
+                            <FontAwesomeIcon color= {'white'} icon={link.icon}></FontAwesomeIcon></StyledIcon>
  
-                    </li>
+                    </StyledFooterItem>
                 ))}
-            </ul>
+            </StyledFooterList>
 
-            <ul className={styles.footer}>
-                <li className={styles.footerItem}><a className={styles.link} href="#">Terms of Service</a></li>
-                <li className={styles.footerItem}><a className={styles.link} href="#">Privacy</a></li>
-            </ul>
+            <StyledFooterList>
+                <StyledFooterItem><StyledIcon href="#">Terms of Service</StyledIcon></StyledFooterItem>
+                <StyledFooterItem><StyledIcon href="#">Privacy</StyledIcon></StyledFooterItem>
+            </StyledFooterList>
         
-        </footer>
+        </StyledFooterContainer>
     );
 };
 export default Footer;

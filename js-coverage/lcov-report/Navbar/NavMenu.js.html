@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">75% </span>
+                <span class="strong">85.71% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>3/4</span>
+                <span class='fraction'>6/7</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">75% </span>
+                <span class="strong">85.71% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>3/4</span>
+                <span class='fraction'>6/7</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -90,7 +90,61 @@
 <a name='L31'></a><a href='#L31'>31</a>
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -125,7 +179,34 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import {useState} from 'react';
 import styles from './Navbar.module.css';
+import styled from 'styled-components';
+import {StyledLink} from './Navbar';
 import HamburgerMenu from 'react-hamburger-menu';
+&nbsp;
+const StyledMobileMenu = styled.ul `{  
+        list-style-type: none;
+        display:flex;
+        position:absolute;
+        top:4rem;
+        z-index:1000;
+        background:#222;
+        flex-direction: column;
+        border-radius: 3px;
+}`;
+const StyledDesktopMenu = styled.ul `{  
+        list-style-type: none;
+        display:flex;
+        @media (max-width: 600px) {
+                display: none;
+            }
+}`;
+&nbsp;
+const StyledItems= styled.li `{
+    font-size: 20px;
+    margin:1rem;
+    list-style-type: none;
+}`;
+&nbsp;
 export default function NavMenu() {
     const [open, setOpen]= useState(false);
     const handleClick=<span class="fstat-no" title="function not covered" >()</span>=&gt; {
@@ -147,14 +228,14 @@ export default function NavMenu() {
                 animationDuration={0.5}
             /&gt;
             {open?
-<span class="branch-0 cbranch-no" title="branch not covered" >                &lt;ul className={styles.menu}&gt;</span>
-                    &lt;li className={styles.item}&gt;&lt;a className={styles.link} href="#"&gt;Stores&lt;/a&gt;&lt;/li&gt;
-                    &lt;li className={styles.item}&gt;&lt;a className={styles.link} href="#"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;:null}
-            &lt;ul className={styles.deskTopMenu}&gt;
-                &lt;li className={styles.item}&gt;&lt;a className={styles.link} href="#"&gt;Stores&lt;/a&gt;&lt;/li&gt;
-                &lt;li className={styles.item}&gt;&lt;a className={styles.link} href="#"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
+<span class="branch-0 cbranch-no" title="branch not covered" >                &lt;StyledMobileMenu&gt;</span>
+                    &lt;StyledItems&gt;&lt;StyledLink href="#"&gt;Stores&lt;/StyledLink&gt;&lt;/StyledItems&gt;
+                    &lt;StyledItems&gt;&lt;StyledLink href="#"&gt;Contact Us&lt;/StyledLink&gt;&lt;/StyledItems&gt;
+                &lt;/StyledMobileMenu&gt;:null}
+            &lt;StyledDesktopMenu&gt;
+                &lt;StyledItems&gt;&lt;StyledLink href="#"&gt;Stores &lt;/StyledLink&gt;&lt;/StyledItems&gt;
+                &lt;StyledItems&gt;&lt;StyledLink href="#"&gt;Contact Us&lt;/StyledLink&gt;&lt;/StyledItems&gt;
+            &lt;/StyledDesktopMenu&gt;
         &lt;/&gt;
     );}</pre></td></tr></table></pre>
 
@@ -163,7 +244,7 @@ export default function NavMenu() {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Nov 23 2020 14:00:20 GMT-0400 (Bolivia Time)
+                at Mon Nov 23 2020 16:05:25 GMT-0400 (Bolivia Time)
             </div>
         </div>
         <script src="../prettify.js"></script>

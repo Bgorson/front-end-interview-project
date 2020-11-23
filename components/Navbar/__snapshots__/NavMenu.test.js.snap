@@ -68,23 +68,23 @@ Array [
     />
   </div>,
   <ul
-    className="deskTopMenu"
+    className="NavMenu__StyledDesktopMenu-sc-194gy50-1 iyvdhz"
   >
     <li
-      className="item"
+      className="NavMenu__StyledItems-sc-194gy50-2 gRmCyW"
     >
       <a
-        className="link"
+        className="Navbar__StyledLink-sc-1h1ckcl-2 cvqca-d"
         href="#"
       >
-        Stores
+        Stores 
       </a>
     </li>
     <li
-      className="item"
+      className="NavMenu__StyledItems-sc-194gy50-2 gRmCyW"
     >
       <a
-        className="link"
+        className="Navbar__StyledLink-sc-1h1ckcl-2 cvqca-d"
         href="#"
       >
         Contact Us

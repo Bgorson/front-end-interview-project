@@ -3,7 +3,7 @@
 exports[`should render correctly 1`] = `
 Array [
   <div
-    className="gridItem"
+    className="GridItems__StyledGridItem-sc-17lm9e-0 gNSRve"
   >
     <div
       style={
@@ -69,21 +69,21 @@ Array [
       />
     </div>
     <div
-      className="itemText"
+      className="GridItems__StyledItemText-sc-17lm9e-1 iHzoOt"
     >
       <span>
         foo
       </span>
-      <span
-        className="priceText"
+      <p
+        className="GridItems__StyledPriceText-sc-17lm9e-2 beBfrl"
       >
         $
         .00
-      </span>
+      </p>
     </div>
   </div>,
   <p
-    className="textButton"
+    className="GridItems__StyledTextButton-sc-17lm9e-3 euCxgo"
     onClick={[Function]}
   >
     View More Products

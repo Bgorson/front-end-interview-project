@@ -2,10 +2,10 @@
 
 exports[`should render correctly 1`] = `
 <div
-  className="jumboTron"
+  className="Jumbotron__StyledJumbotron-sc-1k7fk82-0 fMdatd"
 >
   <span
-    className="jumboImage"
+    className="Jumbotron__StyledJumboImage-sc-1k7fk82-1 emKWjm"
   >
     <div
       style={
@@ -71,7 +71,7 @@ exports[`should render correctly 1`] = `
     </div>
   </span>
   <div
-    className="jumboText"
+    className="Jumbotron__StyledJumboText-sc-1k7fk82-2 dCeRZI"
   >
     <h1>
        Aisle

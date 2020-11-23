@@ -1,18 +1,36 @@
-import styles from './Grid.module.css';
+import {useState} from 'react';
+import styled from 'styled-components';
+import { useBottomScrollListener } from 'react-bottom-scroll-listener';
 import GridItem from './GridItems';
+
+const StyledGridItems =styled.div `{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:2rem;
+}`;
+
 export default function Grid({data}) {
     const amountToView=8;
+    const maxItems= data.length;
+    const [itemsToView, setItemsToView]= useState(4);
+    const handleViewMore=()=>{
+        if (maxItems >= itemsToView){
+            setItemsToView(itemsToView+4);
+        }
+    };
 
+    useBottomScrollListener(handleViewMore);
     return (
         <div>
-            {data.slice(0,4).map((item) =>
-                <div className={styles.itemGrid} key={item.id}>
-                    <h2 key= {item.id} className={styles.gridHeader}>
+            {data.slice(0,itemsToView).map((item) =>
+                <div key={item.id}>
+                    <h2 key= {item.id}>
                         {item.name}
                     </h2>
-                    <div className={styles.gridItems}>
+                    <StyledGridItems>
                         <GridItem key={item.id} item={item} amountToView={amountToView}/>
-                    </div>
+                    </StyledGridItems>
                 </div>
             )
             }
