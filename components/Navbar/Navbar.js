@@ -1,4 +1,3 @@
-import React from 'react';
 import NavMenu from './NavMenu';
 import styles from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

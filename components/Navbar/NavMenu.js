@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import styles from './Navbar.module.css';
 import HamburgerMenu from 'react-hamburger-menu';
 export default function NavMenu() {

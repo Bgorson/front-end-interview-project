@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<nav
+  className="navBar"
+>
+  <div
+    className="hamburger"
+    onClick={[Function]}
+    style={
+      Object {
+        "height": "15px",
+        "position": "relative",
+        "transform": "rotate(0deg)",
+        "width": "18px",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "white",
+          "borderRadius": "0px",
+          "display": "block",
+          "height": "1px",
+          "marginTop": "-0.5px",
+          "position": "absolute",
+          "transform": "translate3d(0,0,0) rotate(0)",
+          "transformOrigin": "center",
+          "transitionDuration": "0.5s",
+          "transitionTimingFunction": "ease",
+          "width": "100%",
+        }
+      }
+    />
+    <span
+      style={
+        Object {
+          "background": "white",
+          "borderRadius": "0px",
+          "display": "block",
+          "height": "1px",
+          "marginTop": "-0.5px",
+          "opacity": "1",
+          "position": "absolute",
+          "top": "7.5px",
+          "transformOrigin": "center",
+          "transitionDuration": "0.125s",
+          "transitionTimingFunction": "ease-out",
+          "width": "100%",
+        }
+      }
+    />
+    <span
+      style={
+        Object {
+          "background": "white",
+          "borderRadius": "0px",
+          "display": "block",
+          "height": "1px",
+          "marginTop": "-0.5px",
+          "position": "absolute",
+          "transform": "translate3d(0,15px,0) rotate(0)",
+          "transformOrigin": "center",
+          "transitionDuration": "0.5s",
+          "transitionTimingFunction": "ease",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <ul
+    className="deskTopMenu"
+  >
+    <li
+      className="item"
+    >
+      <a
+        className="link"
+        href="#"
+      >
+        Stores
+      </a>
+    </li>
+    <li
+      className="item"
+    >
+      <a
+        className="link"
+        href="#"
+      >
+        Contact Us
+      </a>
+    </li>
+  </ul>
+  <li
+    className="logo"
+  >
+    <a
+      className="link"
+      href="#"
+    >
+      Foxtrot
+    </a>
+  </li>
+  <li
+    className="item"
+  >
+    <a
+      className="link"
+      href="#"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-shopping-bag fa-w-14 "
+        color="white"
+        data-icon="shopping-bag"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M352 160v-32C352 57.42 294.579 0 224 0 153.42 0 96 57.42 96 128v32H0v272c0 44.183 35.817 80 80 80h288c44.183 0 80-35.817 80-80V160h-96zm-192-32c0-35.29 28.71-64 64-64s64 28.71 64 64v32H160v-32zm160 120c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zm-192 0c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </a>
+  </li>
+</nav>
+`;

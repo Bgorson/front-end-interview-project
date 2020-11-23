@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
     process: (content, filePath) => {
         console.log('raw-loader', filePath);

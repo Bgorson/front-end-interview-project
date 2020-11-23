@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 process.env = {
     ...process.env,
     __NEXT_IMAGE_OPTS: {

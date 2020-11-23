@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+Array [
+  <div
+    className="hamburger"
+    onClick={[Function]}
+    style={
+      Object {
+        "height": "15px",
+        "position": "relative",
+        "transform": "rotate(0deg)",
+        "width": "18px",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "white",
+          "borderRadius": "0px",
+          "display": "block",
+          "height": "1px",
+          "marginTop": "-0.5px",
+          "position": "absolute",
+          "transform": "translate3d(0,0,0) rotate(0)",
+          "transformOrigin": "center",
+          "transitionDuration": "0.5s",
+          "transitionTimingFunction": "ease",
+          "width": "100%",
+        }
+      }
+    />
+    <span
+      style={
+        Object {
+          "background": "white",
+          "borderRadius": "0px",
+          "display": "block",
+          "height": "1px",
+          "marginTop": "-0.5px",
+          "opacity": "1",
+          "position": "absolute",
+          "top": "7.5px",
+          "transformOrigin": "center",
+          "transitionDuration": "0.125s",
+          "transitionTimingFunction": "ease-out",
+          "width": "100%",
+        }
+      }
+    />
+    <span
+      style={
+        Object {
+          "background": "white",
+          "borderRadius": "0px",
+          "display": "block",
+          "height": "1px",
+          "marginTop": "-0.5px",
+          "position": "absolute",
+          "transform": "translate3d(0,15px,0) rotate(0)",
+          "transformOrigin": "center",
+          "transitionDuration": "0.5s",
+          "transitionTimingFunction": "ease",
+          "width": "100%",
+        }
+      }
+    />
+  </div>,
+  <ul
+    className="deskTopMenu"
+  >
+    <li
+      className="item"
+    >
+      <a
+        className="link"
+        href="#"
+      >
+        Stores
+      </a>
+    </li>
+    <li
+      className="item"
+    >
+      <a
+        className="link"
+        href="#"
+      >
+        Contact Us
+      </a>
+    </li>
+  </ul>,
+]
+`;

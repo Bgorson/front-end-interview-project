@@ -1,5 +1,6 @@
 const { defaults } = require('jest-config');
 
+// eslint-disable-next-line no-undef
 module.exports = {
     ...defaults,
     preset: 'ts-jest',

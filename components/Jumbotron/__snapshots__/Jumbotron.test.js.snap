@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="jumboTron"
+>
+  <span
+    className="jumboImage"
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "margin": 0,
+          "maxWidth": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "maxWidth": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          role="presentation"
+          src="data:image/svg+xml;charset=utf-8,<svg width=\\"300\\" height=\\"200\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\"/>"
+          style={
+            Object {
+              "display": "block",
+              "maxWidth": "100%",
+            }
+          }
+        />
+      </div>
+      <img
+        alt="wine"
+        decoding="async"
+        src="/_next/image?url=%2Fbackground.png&w=1024&q=75"
+        srcSet="/_next/image?url=%2Fbackground.png&w=320&q=75 1x, /_next/image?url=%2Fbackground.png&w=768&q=75 2x, /_next/image?url=%2Fbackground.png&w=1024&q=75 3x"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "visibility": "visible",
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </span>
+  <div
+    className="jumboText"
+  >
+    <h1>
+       Aisle
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temre et dolierunt mollit anim id est laborum.
+    </p>
+  </div>
+</div>
+`;
