@@ -1,5 +1,7 @@
 import {useState} from 'react';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { useBottomScrollListener } from 'react-bottom-scroll-listener';
 import GridItem from './GridItems';
 
@@ -59,7 +61,8 @@ export default function Grid({data}) {
                 </div>
             )
             }
-            {maxItems <= itemsToView? <StyledScrollButton onClick={scrollToTop}>Scroll to Top</StyledScrollButton>:null}
+            {maxItems <= itemsToView?  <StyledScrollButton onClick={scrollToTop}>
+                <FontAwesomeIcon color= {'black'} icon={faArrowUp}></FontAwesomeIcon></StyledScrollButton>:null}
         </StyledGridContent>
     );
 }
