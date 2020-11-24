@@ -12,6 +12,22 @@ body {
     font-size: 16px;
     height:100%;
 }
+.mainImage{
+  width:100%;
+}
+.itemPicture{
+  width: auto;
+  height: auto;
+}
+.hamburger{
+  margin-top:1rem;
+  margin-left:1rem;
+}
+@media (min-width: 600px) {
+  .hamburger{
+      display: none;
+  }
+}
 
 .spinner{
   display: flex;

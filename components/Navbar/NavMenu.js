@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import styles from './Navbar.module.css';
 import styled from 'styled-components';
 import {StyledLink} from './Navbar';
 import HamburgerMenu from 'react-hamburger-menu';
@@ -33,8 +32,7 @@ export default function NavMenu() {
     return (
         <>
             <HamburgerMenu
-                data-testid={'hamburger'}
-                className={styles.hamburger}
+                className={'hamburger'}
                 isOpen={open}
                 menuClicked={()=>setOpen(!open)}
                 width={18}

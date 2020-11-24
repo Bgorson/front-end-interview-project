@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import styled from 'styled-components';
-import styles from './Jumbotron.module.css';
 
 const StyledJumbotron =styled.div `{
     display:flex;
@@ -36,7 +35,7 @@ export default function Jumbotron({aisleTitle}) {
     return (
         <StyledJumbotron>
             <StyledJumboImage>
-                <Image className= {styles.mainImage} src="/background.png" alt="wine" height="200" width="400"/>
+                <Image className= {'mainImage'} src="/background.png" alt="wine" height="200" width="400"/>
             </StyledJumboImage>
             <StyledJumboText>
                 <h1>{aisleTitle} Aisle</h1>

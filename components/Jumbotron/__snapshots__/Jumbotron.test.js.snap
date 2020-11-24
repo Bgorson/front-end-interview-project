@@ -2,7 +2,7 @@
 
 exports[`should render correctly 1`] = `
 <div
-  className="Jumbotron__StyledJumbotron-sc-1k7fk82-0 fMdatd"
+  className="Jumbotron__StyledJumbotron-sc-1k7fk82-0 kHkcMX"
 >
   <span
     className="Jumbotron__StyledJumboImage-sc-1k7fk82-1 emKWjm"
@@ -32,7 +32,7 @@ exports[`should render correctly 1`] = `
           alt=""
           aria-hidden={true}
           role="presentation"
-          src="data:image/svg+xml;charset=utf-8,<svg width=\\"300\\" height=\\"200\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\"/>"
+          src="data:image/svg+xml;charset=utf-8,<svg width=\\"400\\" height=\\"200\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\"/>"
           style={
             Object {
               "display": "block",
@@ -45,8 +45,8 @@ exports[`should render correctly 1`] = `
         alt="wine"
         className="mainImage"
         decoding="async"
-        src="/_next/image?url=%2Fbackground.png&w=1024&q=75"
-        srcSet="/_next/image?url=%2Fbackground.png&w=320&q=75 1x, /_next/image?url=%2Fbackground.png&w=768&q=75 2x, /_next/image?url=%2Fbackground.png&w=1024&q=75 3x"
+        src="/_next/image?url=%2Fbackground.png&w=1200&q=75"
+        srcSet="/_next/image?url=%2Fbackground.png&w=420&q=75 1x, /_next/image?url=%2Fbackground.png&w=1024&q=75 2x, /_next/image?url=%2Fbackground.png&w=1200&q=75 3x"
         style={
           Object {
             "border": "none",
@@ -72,7 +72,7 @@ exports[`should render correctly 1`] = `
     </div>
   </span>
   <div
-    className="Jumbotron__StyledJumboText-sc-1k7fk82-2 dCeRZI"
+    className="Jumbotron__StyledJumboText-sc-1k7fk82-2 cZnEn"
   >
     <h1>
        Aisle

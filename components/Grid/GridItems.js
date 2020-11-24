@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
-import styles from './Grid.module.css';
 
 const StyledGridItem = styled.div `{    
     min-height:75px;
@@ -57,7 +56,7 @@ const GridItem= ({item, amountToView}) => {
                 return (
                     <StyledGridItem key = {item.id}>
                         <Image
-                            className={styles.itemPicture}
+                            className={'itemPicture'}
                             src={item.assets[0].url}
                             alt={item.title}
                             width={500}
