@@ -62,7 +62,7 @@ export default function Grid({data}) {
             )
             }
             {maxItems <= itemsToView?  <StyledScrollButton onClick={scrollToTop}>
-                <FontAwesomeIcon color= {'black'} icon={faArrowUp}></FontAwesomeIcon></StyledScrollButton>:null}
+                <FontAwesomeIcon color= {'black'}size="lg" icon={faArrowUp}></FontAwesomeIcon></StyledScrollButton>:null}
         </StyledGridContent>
     );
 }
