@@ -16,6 +16,19 @@ const StyledGridContent =styled.div `{
     }
 }`;
 
+const StyledScrollButton = styled.p `{
+    background:none;
+    border:none;
+    margin:1.5rem auto;
+    padding:0;
+    cursor: pointer;
+    font-size:1.3rem;
+    text-align: right;
+    :hover{
+        text-decoration: underline;
+    }
+}`;
+
 export default function Grid({data}) {
     const amountToView=8;
     const maxItems= data.length;
@@ -24,6 +37,12 @@ export default function Grid({data}) {
         if (maxItems >= itemsToView){
             setItemsToView(itemsToView+4);
         }
+    };
+    const scrollToTop=()=>{
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     };
 
     useBottomScrollListener(handleViewMore);
@@ -40,6 +59,7 @@ export default function Grid({data}) {
                 </div>
             )
             }
+            {maxItems <= itemsToView? <StyledScrollButton onClick={scrollToTop}>Scroll to Top</StyledScrollButton>:null}
         </StyledGridContent>
     );
 }

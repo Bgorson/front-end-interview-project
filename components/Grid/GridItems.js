@@ -28,8 +28,7 @@ const StyledText =styled.p `{
 const StyledTextButton =styled.p `{
     background:none;
     border:none;
-    margin:auto;
-    margin-top:1.5rem;
+    margin:1.5rem auto;
     padding:0;
     cursor: pointer;
     font-size:1.3rem;

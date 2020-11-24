@@ -6,8 +6,7 @@ const StyledJumbotron =styled.div `{
     display:flex;
     justify-content:space-between;
     flex-wrap:no-wrap;
-    margin-top:1rem;
-    margin-bottom:1rem;
+    margin:1rem auto;
     @media (max-width: 600px) {
           display:block;
           width:100%;
