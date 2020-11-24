@@ -11,6 +11,7 @@ const StyledJumbotron =styled.div `{
     @media (max-width: 600px) {
           display:block;
           width:100%;
+          margin-top:0;
         }
 }`;
 
@@ -27,6 +28,8 @@ const StyledJumboImage =styled.span `{
 
 const StyledJumboText =styled.div `{
     flex:1;
+    margin:auto;
+    width:90%;
 }`;
 
 export default function Jumbotron({aisleTitle}) {
@@ -34,7 +37,7 @@ export default function Jumbotron({aisleTitle}) {
     return (
         <StyledJumbotron>
             <StyledJumboImage>
-                <Image className= {styles.mainImage} src="/background.png" alt="wine" height="200" width="300"/>
+                <Image className= {styles.mainImage} src="/background.png" alt="wine" height="200" width="400"/>
             </StyledJumboImage>
             <StyledJumboText>
                 <h1>{aisleTitle} Aisle</h1>

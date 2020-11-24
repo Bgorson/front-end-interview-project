@@ -30,16 +30,13 @@ const StyledItems= styled.li `{
 
 export default function NavMenu() {
     const [open, setOpen]= useState(false);
-    const handleClick=()=> {
-        setOpen(!open);
-    };
     return (
-        
         <>
             <HamburgerMenu
+                data-testid={'hamburger'}
                 className={styles.hamburger}
                 isOpen={open}
-                menuClicked={handleClick.bind(this)}
+                menuClicked={()=>setOpen(!open)}
                 width={18}
                 height={15}
                 strokeWidth={1}

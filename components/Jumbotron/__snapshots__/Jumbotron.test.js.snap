@@ -43,6 +43,7 @@ exports[`should render correctly 1`] = `
       </div>
       <img
         alt="wine"
+        className="mainImage"
         decoding="async"
         src="/_next/image?url=%2Fbackground.png&w=1024&q=75"
         srcSet="/_next/image?url=%2Fbackground.png&w=320&q=75 1x, /_next/image?url=%2Fbackground.png&w=768&q=75 2x, /_next/image?url=%2Fbackground.png&w=1024&q=75 3x"

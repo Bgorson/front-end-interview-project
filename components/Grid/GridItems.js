@@ -11,7 +11,7 @@ const StyledGridItem = styled.div `{
     transition: all .2s ease-in-out;
     :hover { transform: scale(1.05)}; 
         @media (max-width: 600px) {
-              width:47%;
+              width:48%;
               :hover { transform:none; }
           }
 

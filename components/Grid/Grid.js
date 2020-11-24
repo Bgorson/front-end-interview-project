@@ -9,6 +9,12 @@ const StyledGridItems =styled.div `{
     flex-wrap:wrap;
     margin-bottom:2rem;
 }`;
+const StyledGridContent =styled.div `{
+    @media (max-width: 800px) {
+    margin:auto;
+    width:90%;
+    }
+}`;
 
 export default function Grid({data}) {
     const amountToView=8;
@@ -22,7 +28,7 @@ export default function Grid({data}) {
 
     useBottomScrollListener(handleViewMore);
     return (
-        <div>
+        <StyledGridContent>
             {data.slice(0,itemsToView).map((item) =>
                 <div key={item.id}>
                     <h2 key= {item.id}>
@@ -34,6 +40,6 @@ export default function Grid({data}) {
                 </div>
             )
             }
-        </div>
+        </StyledGridContent>
     );
 }

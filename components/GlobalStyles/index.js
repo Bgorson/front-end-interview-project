@@ -12,28 +12,11 @@ body {
     font-size: 16px;
     height:100%;
 }
-.content{
-    width:60%;
-    margin:auto;
-}
-.loadingContainer{
-  position: fixed;
-  width: 100%;
-  height:100%;
-  display: flex;
-  align-items: center;
-  top: 0;
-}
+
 .spinner{
   display: flex;
   margin: 0 auto;
 }
-
-@media (max-width: 800px) {
-    .content {
-      width:90%;
-    }
-  }
 `;
 
 export default GlobalStyles;

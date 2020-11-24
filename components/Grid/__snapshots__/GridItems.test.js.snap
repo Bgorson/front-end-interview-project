@@ -75,7 +75,7 @@ Array [
         foo
       </span>
       <p
-        className="GridItems__StyledPriceText-sc-17lm9e-2 beBfrl"
+        className="GridItems__StyledText-sc-17lm9e-2 lppsyc"
       >
         $
         .00
@@ -83,7 +83,7 @@ Array [
     </div>
   </div>,
   <p
-    className="GridItems__StyledTextButton-sc-17lm9e-3 euCxgo"
+    className="GridItems__StyledTextButton-sc-17lm9e-3 jIheFY"
     onClick={[Function]}
   >
     View More Products
